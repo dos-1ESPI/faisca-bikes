@@ -22,11 +22,11 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#1c1f22]">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#1A1D21]">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#b8f03c] text-[#1c1f22]">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#B8F23A] text-[#1A1D21]">
             <BoltIcon className="h-4 w-4" />
           </span>
           <span className="text-lg font-bold tracking-tight text-white">faísca.</span>
@@ -51,7 +51,7 @@ const Header = () => {
         {/* CTA desktop */}
         <a
           href="#test-ride"
-          className="hidden rounded-full bg-[#b8f03c] px-5 py-2 text-sm font-semibold text-[#1c1f22] transition hover:brightness-95 md:inline-block"
+          className="hidden rounded-full bg-[#B8F23A] px-5 py-2 text-sm font-semibold text-[#1A1D21] transition hover:brightness-95 md:inline-block"
         >
           Agendar test ride
         </a>
@@ -92,7 +92,7 @@ const Header = () => {
           <a
             href="#test-ride"
             onClick={() => setOpen(false)}
-            className="mt-4 block rounded-full bg-[#b8f03c] py-3 text-center text-sm font-semibold text-[#1c1f22]"
+            className="mt-4 block rounded-full bg-[#B8F23A] py-3 text-center text-sm font-semibold text-[#1A1D21]"
           >
             Agendar test ride
           </a>
